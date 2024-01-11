@@ -1,0 +1,15 @@
+﻿<Window x:Class="SalesWPFApp.MainUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesWPFApp"
+        mc:Ignorable="d"
+        Title="MainUserWindow" Height="310" Width="677">
+    <Grid Margin="0,0,0,-16">
+        <Label Content="Welcome FStore's User" FontSize="22.2" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="213,41,0,0" Width="256"/>
+        <Button x:Name="btnMemberDetail" Content="Member Detail" Background="#FFA9A9A9" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="115,153,0,0" Width="160" Height="44" Click="btnMemberDetail_Click"/>
+        <Button x:Name="btnOrderHistory" Content="Order History" Background="#FFA9A9A9" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="406,153,0,0" Width="173" Height="44" Click="btnOrderHistory_Click"/>
+        <Button x:Name="btnExit" Content="Exit" Background="#FFA9A9A9" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="293,212,0,0" Width="91" Height="35" Click="btnExit_Click"/>
+    </Grid>
+</Window>
